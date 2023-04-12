@@ -9,7 +9,7 @@
 <div class="form-container">
 
   <h2 id="form-title">Login Form</h2>
-  <form id="login-form" method="post" action="auth.php">
+  <form id="login-form" method="post" action="home.php">
     <div class="form-group">
       <label for="email">Email:</label>
       <input type="email" id="email" name="email">
@@ -21,7 +21,7 @@
     <button type="submit" name="login">Login</button>
     <p>Don't have an account yet? <a href="#" id="register-link">Register here</a></p>
   </form>
-  <form id="register-form" method="post" action="auth.php" style="display:none;">
+  <form id="register-form" method="post" action="home.php" style="display:none;">
     <div class="form-group">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name">
@@ -46,7 +46,7 @@
 </div>
 
 
-	<?php
+<?php
 		// connect to the database
 		$servername = "localhost";
 		$username = "root";
