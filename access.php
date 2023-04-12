@@ -83,7 +83,7 @@ button[type="submit"] {
       <input type="password" id="password" name="password">
     </div>
     <button type="submit" name="register">Register</button>
-    <p>Already have an account? <a href="#" id="login-link">Login sini</a></p>
+    <p>Already have an account? <a href="#" id="login-link">Login here</a></p>
   </form>
   <script>
     const loginForm = document.getElementById("login-form");
